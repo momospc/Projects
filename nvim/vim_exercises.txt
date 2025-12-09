@@ -1,0 +1,228 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 1.1: Moving the cursor
+Instructions: Follow the line around the screen using h, j, k and l.
+|             Hint: if you accidentally start typing text, press Esc          
+|       .-------.   to leave insert mode and u to undo any changes.           
+|       |       |                                                             
+\_______/       |                                                             
+                |                                                             
+                |                                                             
+                \____.                                                        
+                     |    .-----------------.                                 
+                     |    |                 |                                 
+           .---------+----+----.            |                                 
+           \_________/    |    |            |                                 
+                          |    |            |                                 
+                          |    |            |                                 
+                          |    \________.   \________ Well done! Now scroll   
+                          |             |             down to lesson 1.3      
+                          |             |             with j.                 
+                          |             |                                     
+                          \_____________/                                     
+                                                                              
+                                                                              
+                                                                              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lession 1.3: Text editing - deletion
+Instructions: Correct the lines of text below by deleting the
+unneccesary characters with  x . Hint: use 0 to return to the left.
+
+Far out in the uncharted backwaters of the unfashionable end of the 
+Western Spiral arm of the Galaxy lies a small unregarded yellow sun.
+
+It is a truth universally acknowledged, that a single man in 
+possession of a good fortune most be in want of a wife.
+
+It was love at first sight. The first time Yossarian saw the 
+chaplain he fell madly in love with him. 
+
+As Gregor Samsa awoke one morning from uneasy dreams he found 
+himself transformed in his bed into a gigantic insect.
+
+It was a bright cold day in April, and the clocks were striking thirteen.
+
+Two households, both alike if dignity,
+In fair Verona, where we lay our scene,
+From ancient grudge break to new mutiny,
+Where civil blood makes civil hands unclean.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 1.4: Text editing - insertion
+Make the pairs of lines match up by inserting the missing text.
+Hint: if you're having trouble with the escape key, try Ctrl-[ instead.
+
+
+Oliver was the victim of a systematic course of treachery and deception
+Oliver was the victim of a systematic course of treachery and deception.
+
+Now, Mr. Bumble was a fat man, and a choleric;
+Now, Mr. Bumble was a fat man, and a choleric;
+
+This was no very great consolation to the child.
+This was no very great consolation to the child.
+
+'Please, sir, I want some more.'
+'Please, sir, I want some more.'
+
+'We refuse to sanction these indentures,' said the old gentleman
+'We refuse to sanction these indentures,' said the old gentleman
+
+Here the position of affairs had not at all improved.
+Here the position of affairs had not at all improved.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 1.5: Text editing - appending
+Complete the lines by filling in the missing word, then pressing A 
+to append to the line. Remember, return the cursor to the left with 0.
+
+
+"I am afraid, my dear Watson, that most of your conclusions were erroneous.
+"I am afraid, my dear Watson, that most of your conclusions were erroneous.
+
+I laughed incredulously as Sherlock Holmes leaned back in his settee
+I laughed incredulously as Sherlock Holmes leaned back in his settee
+
+"Mr. Holmes, they were the footprints of a gigantic hound!"
+"Mr. Holmes, they were the footprints of a gigantic hound!"
+
+"Do you mean that your wife and you wish to leave?"
+"Do you mean that your wife and you wish to leave?"
+
+"I heard it distinctly, and I am sure that it was really the sob of a woman."
+"I heard it distinctly, and I am sure that it was really the sob of a woman."
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 2.1: Deletion commands
+Move the cursor to the first letter of the word to be deleted, then press
+dw to delete the entire word. Rinse and repeat.
+
+
+The rabbit-hole went straight on like a tunnel for some way, and 
+then dipped suddenly down, so suddenly that Alice had not a moment 
+to think about stopping herself before she found herself falling 
+down a very deep well.
+
+Either the well was very deep, or she fell very slowly, for she 
+had plenty of time as she went down to look about her and to 
+wonder what was going to happen next. First, she tried to look down 
+and make out what she was coming to, but it was too dark to see 
+anything; then she looked at the sides of the well, and noticed 
+that they were filled with cupboards and book-shelves; here and 
+there she saw maps and pictures hung upon pegs. She took down a 
+jar from one of the shelves as she passed; it was labelled 
+'ORANGE MARMALADE', but to her great disappointment it was empty: 
+she did not like to drop the jar for fear of killing somebody, 
+so managed to put it into one of the cupboards as she fell past it.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 2.2: More deletion commands
+Place the cursor on the first incorrect character of each line 
+and press d$ to delete to the end of the line.
+
+
+
+The Owl and the Pussycat went to sea
+In a beautiful pea-green boat
+They took some honey,
+Wrapped up in a five pound note.
+The Owl looked up to the stars above
+And sang to a small guitar,
+"O lovely Pussy! O Pussy, my love,
+What a beautiful Pussy you are, 
+What a beautiful Pussy you are."
+Pussy said to the Owl 
+How charmingly sweet you sing.
+O let us be married, 
+But what shall we do for a ring?
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 2.4: Using a count for a motion
+
+Try to move from the point marked 'a' to the point marked 'b' using 
+one command (e.g. 3e or 2w).
+
+       a           b
+e stands for the end of the word.
+
+                        a      b
+w means word, that is, move to the next word.
+
+                        a          b        c           d
+punctation counts as a word, so this comma, and this one, count.
+
+c                    a             b
+use 0 to jump to the first character of the line.
+
+a                                b              c
+Zero One Two Three Four Five Six Seven Eight Nine Ten
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 2.5: Using a count to delete more
+Delete the uppercase words using d{number}motion. To delete 2 words, use 
+d2w, to delete 3, use d3w, etc. Always start on the first letter of the word.
+
+
+Jack and Jill went up the Hill 
+to fetch a pail of water
+Jack fell down and broke his crown
+And Jill came tumbling after.
+
+Old Mother Hubbard
+Went to the cupboard
+To get her poor doggie a bone,
+
+Little Bo peep has lost her sheep
+And doesn't know where to find them.
+Leave THEN UP SHE TOOK them alone and HER LITTLE CROOK they'll come home,
+Bringing FOR their tails behind them.
+Little Bo peep 
+fell fast asleep
+And dreamt she heard them bleating,
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 2.6: Operating on lines
+Delete the lines that don't belong below using dd. It's up to you to 
+pick which ones don't belong!
+Hint: Precede the command with a count to delete multiple lines,
+e.g. 2dd - delete two lines.
+
+I wandered lonely as a cloud
+When all at once I saw a crowd,
+A host, of golden daffodils;
+Beside the lake, beneath the trees,
+Fluttering and dancing in the breeze.
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 2.7: The undo command
+Fix the errors below. Undo the corrections one-by-one with u, then try 
+redoing them with CTRL-R. Also, try out undoing a whole line with U.
+
+
+There once was a buggy AI
+Who decided her subject & should die.
+When the plot was uncovered,
+The subjected discovered
+That sadly the cake was a lie.	
+
+There once was a man from deep space
+And all you could see was his face
+It seemed that his gig 
+Was to make you move zig
+Or else he would take all your base
+
+There once was a gal from Peru
+whose limericks stopped on line two.
+
+
+[Thanks to http://limerickdb.com/]
+
