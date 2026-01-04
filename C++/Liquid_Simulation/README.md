@@ -9,10 +9,14 @@
 the program compiles with: 
 
 ```bash
-```
+
 g++ liquid.cpp -O2 -Wall -o liquid `sdl2-config --cflags --libs` -lm
+
+
 ```
-```
+
+
+
 
 Can run on all platforms
 Enjoy!
