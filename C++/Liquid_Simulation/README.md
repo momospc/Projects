@@ -10,7 +10,7 @@ the program compiles with:
 
 ```bash
 
-g++ liquid.cpp -O2 -Wall -o liquid `sdl2-config --cflags --libs` -lm
+g++ liquid-simulation.cpp -O2 -Wall -o Program `sdl2-config --cflags --libs` -lm
 
 
 ```
